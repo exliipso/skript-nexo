@@ -1,7 +1,7 @@
 package me.asleepp.skriptnexo.elements.effects.mechanicbuilder;
 
 import java.util.Map;
-import com.nexomc.nexo.mechanics.MechanicManager;
+import com.nexomc.nexo.mechanics.MechanicsManager;
 import com.nexomc.nexo.mechanics.MechanicFactory;
 import com.nexomc.nexo.mechanics.Mechanic;
 
