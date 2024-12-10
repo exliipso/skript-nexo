@@ -8,9 +8,9 @@ import com.nexomc.nexo.mechanics.Mechanic;
 public class MechanicLoader {
     public void loadMechanic(String mechanicName, Map<String, Object> config) {
         // Converts the Mechanic to a format Nexo understands
-        Mechanic newMechanic = new Mechanic(mechanicName, config);
+        Mechanic newMechanic = Mechanic(mechanicName, config);
 
         // Use Nexo Registry to add Mechanic
-        new MechanicFactory(newMechanic);
+        MechanicFactory(newMechanic);
     }
 }
