@@ -11,6 +11,6 @@ public class MechanicLoader {
         Mechanic newMechanic = new Mechanic(mechanicName, config);
 
         // Use Nexo Registry to add Mechanic
-        registerMechanicFactory(newMechanic);
+        new MechanicFactory(newMechanic);
     }
 }
