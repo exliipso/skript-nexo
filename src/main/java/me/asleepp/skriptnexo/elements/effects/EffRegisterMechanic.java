@@ -10,6 +10,7 @@ import ch.njol.skript.lang.SkriptParser;
 import ch.njol.skript.doc.RequiredPlugins;
 import ch.njol.skript.doc.Since;
 import org.bukkit.event.Event;
+import java.util.Map;
 
 @Name("Register New Nexo Mechanic")
 @Description({"Register New Nexo Mechanic to use at your leasure"})
