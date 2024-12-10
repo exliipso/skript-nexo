@@ -12,7 +12,7 @@ import ch.njol.skript.doc.RequiredPlugins;
 import ch.njol.skript.doc.Since;
 import org.bukkit.event.Event;
 import java.util.Map;
-import com.nexomc.nexo.mechanics.*;
+import com.nexomc.nexo.mechanics.Mechanic;
 
 @Name("Register New Nexo Mechanic")
 @Description({"Register New Nexo Mechanic to use at your leasure"})
