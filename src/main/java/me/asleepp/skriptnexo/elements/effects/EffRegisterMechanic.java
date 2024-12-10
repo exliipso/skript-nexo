@@ -29,11 +29,6 @@ public class EffRegisterMechanic extends Effect {
         Skript.registerEffect(EffRegisterMechanic.class, "create mechanic %string% with: %objects%");
     }
 
-    @Override
-    protected void execute(Event event) {
-        // Pass the mechanic name and configuration to Nexo
-        new MechanicLoader().loadMechanic(mechanicName, mechanicConfig);
-    }
  
     @Override
     public String toString(Event event, boolean debug) {
