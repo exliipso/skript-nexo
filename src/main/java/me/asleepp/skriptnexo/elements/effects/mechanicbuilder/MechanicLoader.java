@@ -1,6 +1,6 @@
 package me.asleepp.skriptnexo.elements.effects.mechanicbuilder;
 
-
+import java.util.Map;
 
 public class MechanicLoader {
     public void loadMechanic(String mechanicName, Map<String, Object> config) {
