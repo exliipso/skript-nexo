@@ -64,7 +64,7 @@ public class MechanicYamlUpdater {
             e.printStackTrace();
         }
     }
-
+]
 public class MechanicLoader {
     public void loadMechanic(String mechanicName, Map<String, Object> config) {
         // Converts the Mechanic to a format Nexo understands
