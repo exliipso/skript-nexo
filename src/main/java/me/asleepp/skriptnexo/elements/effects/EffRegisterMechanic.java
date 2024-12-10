@@ -24,7 +24,7 @@ public class EffRegisterMechanic extends Effect {
     @Override
     protected void execute(Event event) {
         //pass the mechanic name and config to Nexo
-        new MechanicLoader().loadMechanic(mechanic Name, mechanicConfig);
+        new MechanicLoader().loadMechanic(mechanicName, mechanicConfig);
     }
     @Override
     public String toString(Event event, boolean debug) {
