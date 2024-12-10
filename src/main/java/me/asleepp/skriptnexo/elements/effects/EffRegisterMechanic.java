@@ -19,17 +19,22 @@ import java.util.Map;
 @RequiredPlugins("Nexo")
 
 public class EffRegisterMechanic extends Effect {
-
-    static  {
+    private String mechanicName;
+    private Map<String, Object> mechanicConfig;
+ 
+     static  {
         Skript.registerEffect(EffRegisterMechanic.class, "create mechanic %string% with: %objects%");
     }
+
     @Override
     protected void execute(Event event) {
-        //pass the mechanic name and config to Nexo
+        // Pass the mechanic name and configuration to Nexo
         new MechanicLoader().loadMechanic(mechanicName, mechanicConfig);
     }
+ 
     @Override
     public String toString(Event event, boolean debug) {
         return "Register mechanic: " + mechanicName;
     }
 }
+
