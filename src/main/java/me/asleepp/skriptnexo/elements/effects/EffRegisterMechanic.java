@@ -1,5 +1,6 @@
 package me.asleepp.skriptnexo.elements.effects;
 
+import me.asleepp.skriptnexo.elements.effects.mechanicbuilder.MechanicLoader;
 import ch.njol.skript.Skript;
 import ch.njol.skript.doc.Description;
 import ch.njol.skript.doc.Examples;
