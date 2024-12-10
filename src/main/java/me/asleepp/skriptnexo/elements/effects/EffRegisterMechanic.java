@@ -25,7 +25,7 @@ public class EffRegisterMechanic extends Effect {
     private String mechanicName;
     private Map<String, Object> mechanicConfig;
  
-     static  {
+    static  {
         Skript.registerEffect(EffRegisterMechanic.class, "create mechanic %string% with: %objects%");
     }
 
