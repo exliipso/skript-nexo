@@ -8,6 +8,6 @@ public class MechanicLoader {
         Mechanic newMechanic = new Mechanic(mechanicName, config);
 
         // Use Nexo Registry to add Mechanic
-        NexoMechanicRegistry(newMechanic);
+        NexoMechanicFactory(newMechanic);
     }
 }
